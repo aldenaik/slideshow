@@ -2,7 +2,6 @@ zendev-test-new-grad
 ====================
 
 ## Build a screenshot carousel!
-
 ![alt tag](https://raw.githubusercontent.com/ZenStef/zendev-test-new-grad/master/proto-carousel.png?token=2904853__eyJzY29wZSI6IlJhd0Jsb2I6WmVuU3RlZi96ZW5kZXYtdGVzdC1uZXctZ3JhZC9tYXN0ZXIvcHJvdG8tY2Fyb3VzZWwucG5nIiwiZXhwaXJlcyI6MTQwMDc4ODMxN30%3D--0cf8fe9c0a6a3a2ceb4982f4b38295a5fbed2c8a)
 
 ### Getting Started
