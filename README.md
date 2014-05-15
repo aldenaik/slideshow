@@ -7,7 +7,7 @@ zendev-test-new-grad
 ### Getting Started
 - git clone https://github.com/ZenStef/zendev-test-new-grad.git
 - Create a new branch for your code
-- When you're all finished add/push/commit your code and submit a pull request for your branch to be merged into master
+- When you're all finished add/push/commit your branch and submit a pull request for it to be merged into master
 - Assign the pull request to me: ZenStef
 
 ### Data Provided
@@ -25,7 +25,7 @@ zendev-test-new-grad
 - Efficiency - Did you develop beautifully simple, clean code.. that works?
 
 ### Bonus Points!
-If you'd like to go above and beyond, we'll be impressed by the following:
+If you'd like to go above and beyond, we'd be über impressed by the following:
 - Make your widget responsive for tablet and handheld breakpoints
 - Full cross-browser compatibility (yup, unfortunately this includes, IE8 through IE11 as well as Safari, Firefox, and Chrome)
 - CSS3 Animations!
