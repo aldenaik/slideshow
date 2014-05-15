@@ -10,7 +10,7 @@ zendev-test-new-grad
 - Assign the pull request to me, ZenStef
 
 ### Data Provided
-- *assets/scripts/carouselData.js* - JSON Data stored in a variable labeled screenCarousel. The data stored here contains URL's to each screenshot image, the title of the screen, the description of the screen, and the positionTop and positionLeft 
+- *assets/scripts/carouselData.js* - JSON Data stored in a variable labeled screenCarousel. The data stored here contains URL's to each screenshot image, the title of the screen, the description of the screen, and the absolute positioning specs for your tooltip (which conatins the description) 
 - *proto-carousel.png* - This is a super bare-bones prototype of what your screenshot carousel should look like. We expect you to design and beautify the hell out of it :D
 
 ### Overall Premise and Expected Behavior
