@@ -5,13 +5,13 @@ zendev-test-new-grad
 
 ### Getting Started
 - git clone https://github.com/ZenStef/zendev-test-new-grad.git
-- Create a new branch for you code
+- Create a new branch for your code
 - When you're all finished add/push/commit your code and submit a pull request for your branch to be merged into master
 - Assign the pull request to me, ZenStef
 
 ### Data Provided
-- carouselData.js - JSON Data stored in a variable labeled screenCarousel. The data stored here contains URL's to each screenshot image, the title of the screen, the description of the screen, and the positionTop and positionLeft 
-- proto-carousel.png - This is a super bare-bones prototype of what your screenshot carousel should look like. We expect you to design and beautify the hell out of it :D
+- *carouselData.js* - JSON Data stored in a variable labeled screenCarousel. The data stored here contains URL's to each screenshot image, the title of the screen, the description of the screen, and the positionTop and positionLeft 
+- *proto-carousel.png* - This is a super bare-bones prototype of what your screenshot carousel should look like. We expect you to design and beautify the hell out of it :D
 
 ### Overall Premise and Expected Behavior
 - Clicking on the right icon, takes you to the next screenshot, while clicking on the left takes you to the previous screenshot
