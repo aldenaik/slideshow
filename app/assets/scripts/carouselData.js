@@ -1,4 +1,4 @@
-var screenCarousel = [
+ var screenCarousel = [
   {
     "imgSrc":"http://www.zendesk.com/public/assets/images/p-helpcenter/screen-portal.png",
     "imgTitle":"Knowledge Base",
