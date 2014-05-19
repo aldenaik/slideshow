@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bff3290-d2fb-468d-b975-fc8afa466e44" name="Default" comment="" />
+    <list default="true" id="7bff3290-d2fb-468d-b975-fc8afa466e44" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/Buddhysmaller.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/BuddhysmallerEdit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/BuddhysmallerEdit.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/LeftFlick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/LeftFlick.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/leftHand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/leftHand.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/rightFlick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/rightFlick.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/rightHand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/rightHand.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/view/index.html" afterPath="$PROJECT_DIR$/app/assets/view/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/main.css" afterPath="$PROJECT_DIR$/app/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/scripts/main.js" afterPath="$PROJECT_DIR$/app/assets/scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="zendev-test-new-grad.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +49,7 @@
       <file leaf-file-name="carouselData.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/scripts/carouselData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="18" selection-start="4" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="9" column="91" selection-start="443" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -42,7 +58,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="12" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="2400">
+            <state line="112" column="0" selection-start="2019" selection-end="2019" vertical-scroll-proportion="0.0" vertical-offset="1011" max-vertical-offset="3120">
               <folding />
             </state>
           </provider>
@@ -51,7 +67,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/view/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="0" selection-start="2665" selection-end="2665" vertical-scroll-proportion="-21.25" vertical-offset="810" max-vertical-offset="1470">
+            <state line="57" column="24" selection-start="1828" selection-end="1867" vertical-scroll-proportion="-20.0" vertical-offset="375" max-vertical-offset="1575">
               <folding />
             </state>
           </provider>
@@ -60,7 +76,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="11" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.5121951" vertical-offset="330" max-vertical-offset="945">
+            <state line="80" column="13" selection-start="3373" selection-end="3373" vertical-scroll-proportion="0.51365185" vertical-offset="899" max-vertical-offset="1770">
               <folding />
             </state>
           </provider>
@@ -91,9 +107,9 @@
         <option value="$PROJECT_DIR$/assets/View/index.html" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/app/assets/View/index.html" />
-        <option value="$PROJECT_DIR$/app/assets/css/main.css" />
         <option value="$PROJECT_DIR$/app/assets/scripts/carouselData.js" />
         <option value="$PROJECT_DIR$/app/assets/view/index.html" />
+        <option value="$PROJECT_DIR$/app/assets/css/main.css" />
         <option value="$PROJECT_DIR$/app/assets/scripts/main.js" />
       </list>
     </option>
@@ -160,6 +176,24 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zendev-test-new-grad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zendev-test-new-grad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -207,7 +241,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../My Project/Swaptor" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
@@ -303,9 +337,11 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/proto-carousel.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="0" selection-start="2019" selection-end="2019" vertical-scroll-proportion="0.0" vertical-offset="1011" max-vertical-offset="3120">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -317,28 +353,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/scripts/carouselData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="4" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="9" column="91" selection-start="443" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="12" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="2400">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/proto-carousel.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/view/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="2665" selection-end="2665" vertical-scroll-proportion="-21.25" vertical-offset="810" max-vertical-offset="1470">
+        <state line="57" column="24" selection-start="1828" selection-end="1867" vertical-scroll-proportion="-20.0" vertical-offset="375" max-vertical-offset="1575">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="11" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.5121951" vertical-offset="330" max-vertical-offset="945">
+        <state line="80" column="13" selection-start="3373" selection-end="3373" vertical-scroll-proportion="0.51365185" vertical-offset="899" max-vertical-offset="1770">
           <folding />
         </state>
       </provider>

@@ -21,8 +21,8 @@ body{
     margin-right:auto;
     width:100%;
     text-align: center;
-    height: 100px;
-    line-height: 100px;
+    height: 60px;
+    line-height: 70px;
 
 }
 
@@ -49,40 +49,88 @@ body{
     margin-left:auto;
     margin-right:auto;
     width:60%;
-    background-color:#78A300;
     text-align: center;
-    height: 450px;
+    height: 512px;
+    border: solid 10px #78A300;
+    /*background-color:gray;*/
+
+;
 }
 .whiteSpace{
     margin-left:auto;
     margin-right:auto;
-    margin: 10px;
-    background-color:white;
     text-align: center;
-    height: 95%;
-    width:97%;
-    display: inline-block
+    height: 90%;
+    width:100%;
+    display: inline-block;
+    /*background-color:gray;*/
+
+}
+.firstSlide{
+    background-image:url('http://www.zendesk.com/public/assets/images/p-helpcenter/screen-portal.png');
+    background-repeat: no-repeat;
+    /*background-size:90%;*/
+    background-position: 45% 50%;
+    height: 490px;
+    /*display: inline-block;*/
 }
 .bottom{
     margin-top: 1%;
     margin-left:auto;
     margin-right:auto;
     text-align: center;
-
 }
+
+.Buddhy{
+
+    background-image: url("../../images/BuddhysmallerEdit.png");
+    background-repeat: no-repeat;
+    width: 470px;
+    height: 284px;
+    position: fixed;
+    bottom: -25px;
+    margin-left: 30%;
+}
+
 .left{
+    background-image: url("../../images/leftHand.png");
+    background-repeat: no-repeat;
+    width: 470px;
+    height: 284px;
+    position: fixed;
+    bottom: -108px;
+    margin-left: 30.2%;
+}
+.leftFlick{
+    background-image: url("../../images/LeftFlick.png");
+    background-repeat: no-repeat;
+    width: 470px;
+    height: 284px;
+    position: fixed;
+    bottom: -108px;
+    margin-left: 30.2%;
+    display: none;
 
 }
 .right{
-
+    background-image: url("../../images/rightHand.png");
+    background-repeat: no-repeat;
+    width: 470px;
+    height: 284px;
+    position: fixed;
+    bottom: -108px;
+    margin-left: 60%;
 }
-
-
-
-
-
-
-
+.rightFlick{
+    background-image: url("../../images/rightFlick.png");
+    background-repeat: no-repeat;
+    width: 470px;
+    height: 284px;
+    position: fixed;
+    bottom: -108px;
+    margin-left: 60%;
+    display: none;
+}
 
 
 
