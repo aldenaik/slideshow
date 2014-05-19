@@ -14,12 +14,32 @@ $(document).ready(function() {
 
 //    function load() {
 //        var mydata = JSON.parse(carouselData);
-//        console.log(mydata[0])    }
+////        console.log(mydata[0])    }
+//    $.ajax({
+//
+//        url: 'https://raw.githubusercontent.com/aldenaik/slideshow/aadevelopment/app/assets/scripts/carouselData.js',
+//        type: 'GET',
+////        crossDomain: true,
+//        dataType: 'json',
+//        success: function() { alert("Success"); },
+//        error: function() { alert('Failed!'); },
+////        beforeSend: "https://render.githubusercontent.com"
+//    });
 
 
-        $.getJSON("../scripts/carouselData.js", function(screenCarousel) {
-            console.log(screenCarousel);
-            // data is a JavaScript object now. Handle it as such
+//    function requestJSON(url, callback) {
+//        $.ajax({
+//            url: "https://raw.githubusercontent.com/aldenaik/slideshow/aadevelopment/app/assets/scripts/carouselData.js",
+//            complete: function(xhr) {
+//                callback.call(null, xhr.responseJSON);
+//            }
+//        });
+//    }
+
+
+
+        $.getJSON("https://raw.githubusercontent.com/aldenaik/slideshow/aadevelopment/app/assets/scripts/carouselData.js", function(data) {   //inside the function and the console.log I have also tried inserting screenCarousel
+            console.log(data);
 
         });
 

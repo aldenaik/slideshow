@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bff3290-d2fb-468d-b975-fc8afa466e44" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scripts/carouselData.js" afterPath="$PROJECT_DIR$/app/assets/scripts/carouselData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/scripts/main.js" afterPath="$PROJECT_DIR$/app/assets/scripts/main.js" />
     </list>
     <ignored path="zendev-test-new-grad.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +62,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="42" selection-start="661" selection-end="661" vertical-scroll-proportion="0.66560507" vertical-offset="17" max-vertical-offset="645">
+            <state line="48" column="24" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.63414633" vertical-offset="330" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
@@ -340,7 +340,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="42" selection-start="661" selection-end="661" vertical-scroll-proportion="0.66560507" vertical-offset="17" max-vertical-offset="645">
+        <state line="48" column="24" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.63414633" vertical-offset="330" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
