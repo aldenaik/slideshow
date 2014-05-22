@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7bff3290-d2fb-468d-b975-fc8afa466e44" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/main.css" afterPath="$PROJECT_DIR$/app/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/scripts/main.js" afterPath="$PROJECT_DIR$/app/assets/scripts/main.js" />
     </list>
     <ignored path="zendev-test-new-grad.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="351" column="4" selection-start="6863" selection-end="6863" vertical-scroll-proportion="0.75409836" vertical-offset="4805" max-vertical-offset="5415">
+            <state line="471" column="5" selection-start="10198" selection-end="10198" vertical-scroll-proportion="0.8241206" vertical-offset="6573" max-vertical-offset="7170">
               <folding />
             </state>
           </provider>
@@ -37,7 +38,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/view/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="-3.0" vertical-offset="15" max-vertical-offset="1035">
+            <state line="11" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="3.0" vertical-offset="315" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -46,7 +47,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="0" selection-start="5127" selection-end="5127" vertical-scroll-proportion="-61.73077" vertical-offset="0" max-vertical-offset="5115">
+            <state line="25" column="18" selection-start="1293" selection-end="1299" vertical-scroll-proportion="1.1923077" vertical-offset="406" max-vertical-offset="5265">
               <folding />
             </state>
           </provider>
@@ -87,8 +88,8 @@
         <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/app/assets/View/index.html" />
         <option value="$PROJECT_DIR$/app/assets/scripts/carouselData.js" />
-        <option value="$PROJECT_DIR$/app/assets/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/assets/view/index.html" />
+        <option value="$PROJECT_DIR$/app/assets/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/assets/css/main.css" />
       </list>
     </option>
@@ -345,21 +346,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="0" selection-start="5127" selection-end="5127" vertical-scroll-proportion="-61.73077" vertical-offset="0" max-vertical-offset="5115">
+        <state line="25" column="18" selection-start="1293" selection-end="1299" vertical-scroll-proportion="1.1923077" vertical-offset="406" max-vertical-offset="5265">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/view/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="-3.0" vertical-offset="15" max-vertical-offset="1035">
+        <state line="11" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="3.0" vertical-offset="315" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="351" column="4" selection-start="6863" selection-end="6863" vertical-scroll-proportion="0.75409836" vertical-offset="4805" max-vertical-offset="5415">
+        <state line="471" column="5" selection-start="10198" selection-end="10198" vertical-scroll-proportion="0.8241206" vertical-offset="6573" max-vertical-offset="7170">
           <folding />
         </state>
       </provider>
