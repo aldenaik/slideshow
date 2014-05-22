@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7bff3290-d2fb-468d-b975-fc8afa466e44" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/main.css" afterPath="$PROJECT_DIR$/app/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zendev-test-new-grad.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.5409836" vertical-offset="465" max-vertical-offset="5340">
+            <state line="52" column="10" selection-start="864" selection-end="888" vertical-scroll-proportion="0.43442622" vertical-offset="515" max-vertical-offset="5340">
               <folding />
             </state>
           </provider>
@@ -360,7 +359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.5409836" vertical-offset="465" max-vertical-offset="5340">
+        <state line="52" column="10" selection-start="864" selection-end="888" vertical-scroll-proportion="0.43442622" vertical-offset="515" max-vertical-offset="5340">
           <folding />
         </state>
       </provider>

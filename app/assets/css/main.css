@@ -50,7 +50,7 @@ body{
     position: relative;
     top: 0px;
     -webkit-animation: headerUp .1s;
-    color: #78A300;
+    /*color: #78A300;*/
 
 }
 #middleTitle{
@@ -333,7 +333,7 @@ body{
 
 
 /*Ipad*/
-@media (max-width: 768px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
     .introBuddhy{
         background-image: url("../../images/BuddhyIpad.png");
     }
