@@ -333,12 +333,10 @@ body{
 /*Ipad*/
 @media (max-width: 768px) {
     .introBuddhy{
-background-size: 70%;
-
+        background-image: url("../../images/BuddhyIpad.png");
     }
     .Buddhy{
-        background-size: 70%;
 
-
+        background-image: url("../../images/BuddhysmallerEditIpad.png");
     }
 }
