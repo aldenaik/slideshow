@@ -1,5 +1,5 @@
 body{
-    font-size: 2em;
+    /*font-size: 2em;*/
 }
 .background{
     background-color: white;
@@ -22,29 +22,72 @@ body{
     width:100%;
     text-align: center;
     height: 60px;
-    line-height: 70px;
+    line-height: 65px;
+
 
 }
+.right{
+ cursor: pointer; cursor: hand;
+}
+.left{
+    cursor: pointer; cursor: hand;
+}
 
-.knowledgeBase{
+#leftTitle{
+    opacity: 0;
+    /*display: inline-block;*/
+    /*color: #434343;*/
+    /*width: 160px;*/
+}
+#leftTitle.active {
+    font-size: 1.4em;
     display: inline-block;
     color: #434343;
+    margin-left: 1%;
+    margin-right: 1%;
+    opacity: 1;
+    cursor: pointer; cursor: hand;
+    position: relative;
+    top: 0px;
+    -webkit-animation: headerUp .1s;
 }
-.bar{
+#middleTitle{
+    opacity: 0;
+}
+#middleTitle.active {
+    font-size: 2em;
     display: inline-block;
-    color: #f0f0f0;
-
+    color: #78A300;
+    margin-left: 1%;
+    margin-right: 1%;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    -webkit-animation: headerUp .1s;
 }
-.community{
+
+#rightTitle{
+    opacity: 0;
+
+    /*display: inline-block;*/
+    /*color: #434343;*/
+    /*width: 160px;*/
+}
+#rightTitle.active {
+    font-size: 1.4em;
     display: inline-block;
     color: #434343;
+    margin-left: 1%;
+    margin-rightt: 1%;
+    /*width: 160px;*/
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    -webkit-animation: headerUp .1s;
+    cursor: pointer; cursor: hand;
 
 }
-.customerPortal{
-    display: inline-block;
-    color: #434343;
 
-}
 .mainArea{
     margin-left:auto;
     margin-right:auto;
@@ -52,27 +95,44 @@ body{
     text-align: center;
     height: 512px;
     border: solid 10px #78A300;
+
+    /*overflow: hidden;*/
     /*background-color:gray;*/
 
-;
 }
 .whiteSpace{
     margin-left:auto;
     margin-right:auto;
     text-align: center;
-    height: 90%;
+    height: 100%;
     width:100%;
-    display: inline-block;
+    overflow: hidden;
     /*background-color:gray;*/
+}
+
+#imageActive{
+    opacity: 0;
+}
+
+#imageActive.activeR {
+    position: relative;
+    top: -290px;
+    left: 0%;
+    /*background-position: 0 0;*/
+    height: 490px;
+    opacity: 1;
+    -webkit-animation: scrollIntoImage .15s linear;
 
 }
-.firstSlide{
-    background-image:url('http://www.zendesk.com/public/assets/images/p-helpcenter/screen-portal.png');
-    background-repeat: no-repeat;
-    /*background-size:90%;*/
-    background-position: 45% 50%;
+#imageActive.activeL {
+    position: relative;
+    top: -290px;
+    left: 0%;
+    /*background-position: 0 0;*/
     height: 490px;
-    /*display: inline-block;*/
+    opacity: 1;
+    -webkit-animation: scrollOutImage .15s linear;
+
 }
 .bottom{
     margin-top: 1%;
@@ -80,7 +140,18 @@ body{
     margin-right:auto;
     text-align: center;
 }
+.introBuddhy{
+    background-image: url("../../images/Buddhysmaller.png");
+    background-repeat: no-repeat;
+    width: 470px;
+    height: 284px;
+    position: relative;
+    top: 45%;
+    left: 15%;
+    -webkit-animation: hidingBuddhy 4s;
+    -webkit-animation-fill-mode: forwards;
 
+}
 .Buddhy{
 
     background-image: url("../../images/BuddhysmallerEdit.png");
@@ -88,38 +159,106 @@ body{
     width: 470px;
     height: 284px;
     position: fixed;
-    bottom: -25px;
-    margin-left: 30%;
+    bottom: -45px;
+
+    margin-left: 11%;
+    -webkit-animation: peekingBuddhy 6s;
+    -webkit-animation-fill-mode: forwards;
+
+    /*animation-delay:2s;*/
+    /*-webkit-animation-delay:2s;*/
+
 }
 
-.left{
-    background-image: url("../../images/leftHand.png");
+
+.cloudRight{
+    background-image: url("../../images/cloudoffrightTrans.png");
     background-repeat: no-repeat;
-    width: 470px;
+    width: 490px;
     height: 284px;
     position: fixed;
-    bottom: -108px;
-    margin-left: 30.2%;
+    display: none;
+    -webkit-animation: floatingCloud 4s infinite linear;
+    padding-top:75px ;
+
 }
+
+.cloudRight > p {
+    font-size: 1em;
+    padding-left: 55px;
+    padding-right: 55px;
+    vertical-align: middle;
+    height: 107px;
+    display: table-cell;
+}
+
+.cloudExplain{
+    background-image: url("../../images/cloudofftrail.png");
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 284px;
+    position: fixed;
+    top: 200px;
+    left: 400px;
+    opacity: 0;
+    -webkit-animation: appearCloud, floatingCloud infinite;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay:6s;
+    -Webkit-animation-duration: 2s;
+}
+
+.cloudExplain > p {
+    font-size: 1.7em;
+    padding: 55px;
+    vertical-align: middle;
+    height: 307px;
+    display: table-cell;
+}
+
+
+#leftPlacement{
+    background-image: url("../../images/leftHand.png");
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 120px;
+    position: fixed;
+    bottom: -110px;
+    margin-left: 11.25%;
+    margin-bottom: 13%;
+    -webkit-animation: peekingHands 6s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count:1;
+
+}
+
+
+
 .leftFlick{
     background-image: url("../../images/LeftFlick.png");
     background-repeat: no-repeat;
     width: 470px;
     height: 284px;
     position: fixed;
-    bottom: -108px;
-    margin-left: 30.2%;
+    bottom: -106px;
+    /*margin-left: 31.25%;*/
+    margin-left: 11.25%;
     display: none;
 
 }
-.right{
+
+#rightPlacement{
     background-image: url("../../images/rightHand.png");
     background-repeat: no-repeat;
-    width: 470px;
-    height: 284px;
+    width: 80px;
+    height: 120px;
     position: fixed;
-    bottom: -108px;
-    margin-left: 60%;
+    bottom: -110px;
+    margin-left: 41%;
+    margin-bottom: 13%;
+    -webkit-animation: peekingHands 6s;
+    -webkit-animation-fill-mode: forwards;
+
+
 }
 .rightFlick{
     background-image: url("../../images/rightFlick.png");
@@ -127,77 +266,52 @@ body{
     width: 470px;
     height: 284px;
     position: fixed;
-    bottom: -108px;
-    margin-left: 60%;
+    bottom: -109px;
+    margin-left: 41%;
     display: none;
+
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.red{
-    color: red;
+/* Animation dfinitions
+*/
+@-webkit-keyframes scrollIntoImage{
+    0%   {    bottom: 0%;
+        left: 80%;}
+100% {    bottom: 0%;
+    left: 0%;}
 }
-
-#carousel_inner {
-    float:left; /* important for inline positioning */
-    width:630px; /* important (this width = width of list item(including margin) * items shown */
-    overflow: hidden;  /* important (hide the items outside the div) */
-    /* non-important styling bellow */
-    background: #F0F0F0;
+@-webkit-keyframes scrollOutImage{
+    0%   {left: -80%;}
+    100% {left: 0%;}
 }
-
-#carousel_ul {
-    position:relative;
-    left:-210px; /* important (this should be negative number of list items width(including margin) */
-    list-style-type: none; /* removing the default styling for unordered list items */
-    margin: 0px;
-    padding: 0px;
-    width:9999px; /* important */
-    /* non-important styling bellow */
-    padding-bottom:10px;
+@-webkit-keyframes headerUp{
+    0% { top: -50px;}
+    100% {top: 0%;}
 }
-
-#carousel_ul li{
-    float: left; /* important for inline positioning of the list items */
-    width:200px;  /* fixed width, important */
-    /* just styling bellow*/
-    padding:0px;
-    height:110px;
-    background: #000000;
-    margin-top:10px;
-    margin-bottom:10px;
-    margin-left:5px;
-    margin-right:5px;
+@-webkit-keyframes floatingCloud{
+    0% { margin-left: .05%;}
+    25% { margin-left: .15%;margin-top: -.15%;}
+    50% { margin-left: -.15%;margin-top:.15%}
+    75% {  margin-top: -.15%; }
+    100% { margin-top: -.15;}
 }
-
-#carousel_ul li img {
-.margin-bottom:-4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
-/* styling */
-cursor:pointer;
-cursor: hand;
-border:0px;
+@-webkit-keyframes hidingBuddhy{
+    0% {    top: 45%;}
+    70% { top: 45%;}
+    100% { top: 110%;}
 }
-#left_scroll, #right_scroll{
-    float:left;
-    height:130px;
-    width:15px;
-    background: #C0C0C0;
+@-webkit-keyframes peekingBuddhy{
+    0% {    bottom: -280px;}
+    70% { bottom: -280px;}
+    100% { bottom: -25px;}
 }
-#left_scroll img, #right_scroll img{
-    /*styling*/
-    cursor: pointer;
-    cursor: hand;
+@-webkit-keyframes peekingHands{
+    0% {    bottom: -53%;}
+    70% { bottom: -53%;}
+    100% { bottom: -110px ;}
+}
+@-webkit-keyframes appearCloud{
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
 }
