@@ -50,6 +50,8 @@ body{
     position: relative;
     top: 0px;
     -webkit-animation: headerUp .1s;
+    color: #78A300;
+
 }
 #middleTitle{
     opacity: 0;
@@ -339,4 +341,11 @@ body{
 
         background-image: url("../../images/BuddhysmallerEditIpad.png");
     }
+    #leftPlacement{
+
+        margin-bottom: 17%;
+
+
+    }
+
 }
