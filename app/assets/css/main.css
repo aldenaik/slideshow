@@ -343,8 +343,13 @@ body{
     }
     #leftPlacement{
 
-        margin-bottom: 17%;
+        margin-bottom: 20%;
+    }
+        #leftTitle.active {
 
+        color: #78A300;
+
+    
 
     }
 
