@@ -63,9 +63,20 @@ $(document).ready(function() {
                                        //pull out info from screenCarousel array and integrates into markup
                 document.getElementById('imageActive').src = active.imgSrc;
                 document.getElementById("cloudDescription").innerHTML = active.imgDesc;
+                document.getElementById("cloudTitle").innerHTML = active.imgTitle;
+
+
+
+                if (screen.width < 500) {               //position of description needs to change to show up on iphone
+                    document.getElementById("cloud").style.top="70px";
+                    document.getElementById("cloud").style.left="50px";
+
+                }
+                else{
                 document.getElementById("cloud").style.top=active.imgPosTop;
                 document.getElementById("cloud").style.left=active.imgPosLeft;
-                document.getElementById("cloudTitle").innerHTML = active.imgTitle;
+                }
+
 
                                         //Adds Removes active class for css transitions main image
                 document.getElementById('imageActive').className = "";
@@ -227,119 +238,3 @@ $(document).ready(function() {
 
 });                                     //end document ready
 
-
-
-
-
-
-//this following code creates variables I can then call in my HTML
-//    document.getElementById('imageOne').src = screenCarousel[0].imgSrc;
-//    document.getElementById('imageTwo').src = screenCarousel[1].imgSrc;
-//    document.getElementById('imageThree').src = screenCarousel[2].imgSrc;
-
-//
-
-
-//        });
-
-
-//    $( ".right" ).click(function() {
-//        $(".rightFlick").show();
-//            setTimeout(function() {
-//                $(".rightFlick").hide();
-//                        },175);
-//
-//        $(".right").hide();
-//        setTimeout(function() {
-//            $(".right").show();
-//        },175);
-//        $("#imageOne, #imageTwo").hide()
-//
-//        $("#imageThree").show()
-//
-//
-//    });
-//    $( ".left" ).click(function() {
-//        $(".leftFlick").show();
-//        setTimeout(function() {
-//            $(".leftFlick").hide();
-//        },175);
-//        $(".left").hide();
-//        setTimeout(function() {
-//            $(".left").show();
-//        },175);
-//        $("#imageTwo, #imageThree").hide()
-//        $("#imageOne").show()
-//
-//
-//
-//    });
-
-
-
-
-//$( ".right" ).click(function(e) {
-//    //control snapping fingers
-//    $(".rightFlick").show();
-//    setTimeout(function() {
-//        $(".rightFlick").hide();
-//    },175);
-//
-//    $(".right").hide();
-//    setTimeout(function() {
-//        $(".right").show();
-//    },175);
-//    //end snapping fingers
-//    //keep track if the right hand has been flicked
-//    e = e || event;
-//    $.lastClicked = e.target || e.srcElement;
-//    var lastClickedElement = $.lastClicked;
-//    window.lastClickedElement=lastClickedElement;
-//    console.log(window.lastMousedownElement);
-//    //end right hand has been flicked
-//    //make the current [0] object in array the active object
-//    var activeRight = screenCarousel.shift();
-//    //pull out info from active object
-//    document.getElementById('imageActive').src = activeRight.imgSrc;
-//    console.log(activeRight.imgSrc);
-//    //put active object at the end of the array
-//    screenCarousel.push(activeRight)
-//    console.log(screenCarousel);
-//})                                      //end right Click
-//
-//
-//
-//$( ".left" ).click(function(e) {
-//    //control snapping fingers
-//    $(".leftFlick").show();
-//    setTimeout(function() {
-//        $(".leftFlick").hide();
-//    },175);
-//    $(".left").hide();
-//    setTimeout(function() {
-//        $(".left").show();
-//    },175);
-//    //end snapping fingers
-//    //keep track if the right hand has been flicked
-//    e = e || event;
-//    $.lastMousedown = e.target || e.srcElement;
-//
-//    var lastMousedownElement = $.lastMousedown;
-//    window.lastMousedownElement=lastMousedownElement;
-//
-//
-//    console.log(window.lastClickedElement);
-//
-//    if($(".slider").attr){console.log("yoyo")}
-//
-//    //pull out info from active object
-//    var activeLeft = screenCarousel.pop();
-//    document.getElementById('imageActive').src = activeLeft.imgSrc;
-//
-//    console.log(activeLeft.imgSrc);
-//
-//    //puts active object at the end of the array
-//    screenCarousel.unshift(activeLeft)
-//    console.log(screenCarousel);
-//
-//})
