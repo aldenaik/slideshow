@@ -1,13 +1,10 @@
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
-body{
-    /*font-size: 2em;*/
-}
+
 .background{
     background-color: white;
     min-height: 100%;
-    min-width: 1024px;
     color: #434343;
     width: 100%;
     height: auto;
@@ -24,12 +21,12 @@ body{
     text-align: center;
     height: 60px;
     line-height: 65px;
-
-
 }
+
 .right{
  cursor: pointer; cursor: hand;
 }
+
 .left{
     cursor: pointer; cursor: hand;
 }
@@ -49,10 +46,8 @@ body{
     top: 0px;
     -webkit-animation: headerUp .1s;
     -moz-animation: headerUp .1s;
-
-
-
 }
+
 #middleTitle{
     opacity: 0;
 }
@@ -67,23 +62,18 @@ body{
     top: 0px;
     -webkit-animation: headerUp .1s;
     -moz-animation: headerUp .1s;
-
 }
 
 #rightTitle{
     opacity: 0;
 
-    /*display: inline-block;*/
-    /*color: #434343;*/
-    /*width: 160px;*/
 }
 #rightTitle.active {
     font-size: 1.4em;
     display: inline-block;
     color: #434343;
     margin-left: 1%;
-    margin-rightt: 1%;
-    /*width: 160px;*/
+    margin-right: 1%;
     opacity: 1;
     position: relative;
     top: 0px;
@@ -100,7 +90,7 @@ body{
     text-align: center;
     height: 512px;
     border: solid 10px #78A300;
-
+    max-width: 1400px;
 }
 .whiteSpace{
     margin-left:auto;
@@ -109,18 +99,18 @@ body{
     height: 100%;
     width:100%;
     overflow: hidden;
+    position: relative;
 }
 
 #imageActive{
     opacity: 0;
+    max-width: 100%;
+    height: auto;
 }
 
 #imageActive.activeR {
     position: relative;
-    top: -290px;
     left: 0%;
-    /*background-position: 0 0;*/
-    height: 490px;
     opacity: 1;
     -webkit-animation: scrollIntoImage .15s linear;
     -moz-animation: scrollIntoImage .15s linear;
@@ -128,10 +118,7 @@ body{
 }
 #imageActive.activeL {
     position: relative;
-    top: -290px;
     left: 0%;
-    /*background-position: 0 0;*/
-    height: 490px;
     opacity: 1;
     -moz-animation: scrollOutImage .15s linear;
     -webkit-animation: scrollOutImage .15s linear;
@@ -149,10 +136,9 @@ body{
     background-repeat: no-repeat;
     width: 470px;
     height: 284px;
-    position: relative;
+    position: absolute;
     top: 45%;
     left: 15%;
-    /*-moz-animation-name: hidingBuddhy;*/
     -moz-animation: hidingBuddhy 3s;
     -moz-animation-fill-mode: forwards;
     -webkit-animation: hidingBuddhy 3s;
@@ -168,17 +154,12 @@ body{
     position: fixed;
     bottom: -45px;
     margin-left: 11%;
-    /*background-size:30%;*/
     -webkit-animation: peekingBuddhy 5s;
     -webkit-animation-fill-mode: forwards;
     -moz-animation: peekingBuddhy 5s;
     -moz-animation-fill-mode: forwards;
-
-    /*animation-delay:2s;*/
-    /*-webkit-animation-delay:2s;*/
-
+    z-index: 999;
 }
-
 
 .cloudRight{
     background-image: url("../../images/cloudoffrightTrans.png");
@@ -234,7 +215,6 @@ body{
     color: #D8D8D8;
 }
 
-
 #leftHand{
     background-image: url("../../images/leftHand.png");
     background-repeat: no-repeat;
@@ -246,7 +226,7 @@ body{
 }
   #leftHand.flick {
     background-image: url("../../images/LeftFlick.png");
-  }
+ }
 
 #rightHand{
     background-image: url("../../images/rightHand.png");
@@ -322,7 +302,7 @@ body{
 @keyframes scrollIntoImage{
     0%   {    bottom: 0%;
         left: 80%;}
-100% {    bottom: 0%;
+    100% {    bottom: 0%;
     left: 0%;}
 }
 @keyframes scrollOutImage{
@@ -371,13 +351,14 @@ body{
     100% { opacity: 1; }
 }
 
+/*Media Queries */
+
 
 /*Ipad landscape*/
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
-    /* Styles */
     .mainArea{
         width:80%;
     }
@@ -386,19 +367,9 @@ and (orientation : landscape) {
         left: 19%;
     }
 
-    #leftPlacement{
-        margin-bottom: 16.5%;
-    }
-
-    #rightPlacement{
-        margin-left: 48.5%;
-        margin-bottom: 16.5%;
-    }
-    .rightFlick{
-        margin-left: 48.5%;
-    }
-
 }
+/*End Ipad landscape*/
+
 /*Ipad portrait*/
 @media only screen
 and (min-device-width : 768px)
@@ -418,31 +389,19 @@ and (orientation : portrait) {
         height: 512px;
 
     }
-    #leftPlacement{
-        margin-left: 8.5%;
-        margin-bottom: 16.5%;
-    }
-    .leftFlick{
-        margin-left: 11.4%;
-        margin-bottom: 0%;
-}
-    #rightPlacement{
-        margin-left: 61%;
-        margin-bottom: 21.5%;
-    }
-    .rightFlick{
-        margin-left: 61%;
-        margin-bottom: 0%;
-    }
+
     .cloudExplain{
          top: 400px;
         left: 300px;
     }
 }
+/*End Ipad Portrait*/
+
+
+/*iphone landscape*/
 @media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px)
-and (orientation : landscape) { /* STYLES GO HERE */
+and (max-width : 568px) {
+    /* Styles */
 
     .background{
         min-width: 321px;
@@ -457,44 +416,62 @@ and (orientation : landscape) { /* STYLES GO HERE */
         background-size: 30%;
 
     }
-    .Buddhy{
-        background-size: 30%;
-        height: 100px;
-    }
     .mainArea{
         width:60%;
         text-align: center;
         height: 170px;
     }
-    #rightPlacement{
+    .Buddhy{
         background-size: 30%;
-
-        margin-left: 35%;
-        margin-bottom: 8.8%;
+        height: 100px;
+        z-index: 999;
     }
-    .rightFlick{
-        background-size: 30%;
-        margin-left: 35%;
-        margin-bottom: -125px;
+    #rightHand{
+        background-size:30% ;
+        top: 25px;
+        left: 115px;
     }
-    #leftPlacement{
-        background-size: 30%;
 
-        margin-left: 11%;
-        margin-bottom: 8.8%;
+    #rightHand.flick {
+        background-size:30% ;
+        top: 25px;
+        left: 115px;
     }
-    .leftFlick{
-        background-size: 30%;
+    #leftHand{
+        background-size:30% ;
 
-        margin-left: 11.4%;
-        margin-bottom: -125px;
+        top: 24px;
+        left: 1px;
+    }
+    #leftHand.flick {
+        background-size:30% ;
+        top: 24px;
+        left: 1px;
     }
     .cloudRight{
-        background-size: 30%;
+        background-size: 50%;
+        background-position: 50% 50%;
+        width: 500px;
+        position: absolute;
+
+    }
+    .cloudRight > h4 {
+        padding-top: 25px;
+        margin-top: 1%;
+        font-size: .8em;
+    }
+
+    .cloudRight > p {
+        margin-top: 1%;
+        margin-left: 100px;
+       font-size: .5em;
+        vertical-align: middle;
+        height: 50px;
+        width: 310px;
+        position: absolute;
+        /*display: table-cell;*/
     }
     .cloudExplain{
-        background-image: url("../../images/cloudofftrail.png");
-        background-repeat: no-repeat;
         background-size: 60%;
         width: 320px;
         height: 100px;
@@ -509,9 +486,7 @@ and (orientation : landscape) { /* STYLES GO HERE */
         height: 100px;
         width: 280px;
     }
-    .cloudRight{
 
-    }
     #imageActive.activeR {
         height: 160px;
     }
@@ -519,3 +494,39 @@ and (orientation : landscape) { /* STYLES GO HERE */
         height: 160px;
     }
 }
+/*End Iphone Landscape*/
+
+/*Iphone Portrait*/
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+    .header{
+        height: 80px;
+        line-height: 120px;
+        font-size: .9;
+    }
+    .mainArea{
+        width:90%;
+
+    }
+    .cloudRight{
+        position: absolute;
+
+    }
+    .cloudExplain{
+        background-size: 60%;
+        width: 320px;
+        height: 100px;
+        top: 230px;
+        left: 90px;
+    }
+    .cloudExplain > p {
+        top: -12px;
+        left: -40px;
+        position: absolute;
+        font-size: .8em;
+        height: 100px;
+        width: 280px;
+    }
+}
+/*End Iphone Portrait*/
