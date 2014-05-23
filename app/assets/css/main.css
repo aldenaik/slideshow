@@ -236,62 +236,31 @@ body{
 }
 
 
-#leftPlacement{
+#leftHand{
     background-image: url("../../images/leftHand.png");
     background-repeat: no-repeat;
     width: 85px;
     height: 104px;
     position: absolute;
-    bottom: -94px;
-    margin-left: 11.25%;
-    margin-bottom: 13%;
-    -webkit-animation: peekingHandsL 6s;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-iteration-count:1;
-    -moz-animation: peekingHandsL 6s;
-    -moz-animation-fill-mode: forwards;
-    -moz-animation-iteration-count:1;
+    top: 82px;
+    left: 3px;
 }
-
-
-
-.leftFlick{
+  #leftHand.flick {
     background-image: url("../../images/LeftFlick.png");
-    background-repeat: no-repeat;
-    width: 85px;
-    height: 104px;
-    position: fixed;
-    bottom: 73px;
-    margin-left: 11.24%;
-    display: none;
+  }
 
-}
-
-#rightPlacement{
+#rightHand{
     background-image: url("../../images/rightHand.png");
     background-repeat: no-repeat;
     width: 80px;
     height: 89px;
-    position: fixed;
-    bottom: -80px;
-    margin-left: 41%;
-    margin-bottom: 13%;
-    -webkit-animation: peekingHandsR 6s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation: peekingHandsR 6s;
-    -moz-animation-fill-mode: forwards;
-
+    position: absolute;
+    top: 83px;
+    right: 6px;
 }
-.rightFlick{
+  #rightHand.flick {
     background-image: url("../../images/rightFlick.png");
-    background-repeat: no-repeat;
-    width: 80px;
-    height: 89px;
-    position: fixed;
-    bottom: 85px;
-    margin-left: 41%;
-    display: none;
-}
+  }
 
 
 /* Animation definitions Chrome
