@@ -8,12 +8,10 @@ body{
     background-color: white;
     min-height: 100%;
     min-width: 1024px;
-
-    /* Set up proportionate scaling */
+    color: #434343;
     width: 100%;
     height: auto;
-
-    /* Set up positioning */
+    font-family: 'Source Sans Pro', sans-serif;
     position: fixed;
     top: 0;
     left: 0;
@@ -52,7 +50,7 @@ body{
     -webkit-animation: headerUp .1s;
     -moz-animation: headerUp .1s;
 
-    /*color: #78A300;*/
+
 
 }
 #middleTitle{
@@ -111,7 +109,6 @@ body{
     height: 100%;
     width:100%;
     overflow: hidden;
-    /*background-color:gray;*/
 }
 
 #imageActive{
@@ -156,9 +153,9 @@ body{
     top: 45%;
     left: 15%;
     /*-moz-animation-name: hidingBuddhy;*/
-    -moz-animation: hidingBuddhy 4s;
+    -moz-animation: hidingBuddhy 3s;
     -moz-animation-fill-mode: forwards;
-    -webkit-animation: hidingBuddhy 4s;
+    -webkit-animation: hidingBuddhy 3s;
     -webkit-animation-fill-mode: forwards;
 
 }
@@ -171,10 +168,10 @@ body{
     position: fixed;
     bottom: -45px;
     margin-left: 11%;
-    /*background-size:120%;*/
-    -webkit-animation: peekingBuddhy 6s;
+    /*background-size:30%;*/
+    -webkit-animation: peekingBuddhy 5s;
     -webkit-animation-fill-mode: forwards;
-    -moz-animation: peekingBuddhy 6s;
+    -moz-animation: peekingBuddhy 5s;
     -moz-animation-fill-mode: forwards;
 
     /*animation-delay:2s;*/
@@ -196,11 +193,12 @@ body{
 
 }
 .cloudRight > h4 {
-    font-size: 2em;
+    margin-top: 2%;
+    font-size: 1.4em;
 }
 
 .cloudRight > p {
-    font-size: 1em;
+    font-size: .9em;
     padding-left: 55px;
     padding-right: 55px;
     vertical-align: middle;
@@ -219,20 +217,21 @@ body{
     opacity: 0;
     -webkit-animation: appearCloud, floatingCloud infinite;
     -webkit-animation-fill-mode: forwards;
-    -webkit-animation-delay:6s;
+    -webkit-animation-delay:5s;
     -Webkit-animation-duration: 2s;
     -moz-animation: appearCloud, floatingCloud infinite;
     -moz-animation-fill-mode: forwards;
-    -moz-animation-delay:6s;
+    -moz-animation-delay:5s;
     -moz-animation-duration: 2s;
 }
 
 .cloudExplain > p {
-    font-size: 1.7em;
+    font-size: 1.4em;
     padding: 55px;
     vertical-align: middle;
     height: 307px;
     display: table-cell;
+    color: #D8D8D8;
 }
 
 
@@ -348,7 +347,7 @@ body{
 }
 @keyframes hidingBuddhy{
     0% {    top: 45%;}
-    70% { top: 45%;}
+    30% { top: 45%;}
     100% { top: 110%;}
 }
 
@@ -438,5 +437,85 @@ and (orientation : portrait) {
     .cloudExplain{
          top: 400px;
         left: 300px;
+    }
+}
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : landscape) { /* STYLES GO HERE */
+
+    .background{
+        min-width: 321px;
+    }
+    .header{
+        height: 30px;
+        font-size: .5em;
+        line-height: 30px;
+
+    }
+    .introBuddhy{
+        background-size: 30%;
+
+    }
+    .Buddhy{
+        background-size: 30%;
+        height: 100px;
+    }
+    .mainArea{
+        width:60%;
+        text-align: center;
+        height: 170px;
+    }
+    #rightPlacement{
+        background-size: 30%;
+
+        margin-left: 35%;
+        margin-bottom: 8.8%;
+    }
+    .rightFlick{
+        background-size: 30%;
+        margin-left: 35%;
+        margin-bottom: -125px;
+    }
+    #leftPlacement{
+        background-size: 30%;
+
+        margin-left: 11%;
+        margin-bottom: 8.8%;
+    }
+    .leftFlick{
+        background-size: 30%;
+
+        margin-left: 11.4%;
+        margin-bottom: -125px;
+    }
+    .cloudRight{
+        background-size: 30%;
+    }
+    .cloudExplain{
+        background-image: url("../../images/cloudofftrail.png");
+        background-repeat: no-repeat;
+        background-size: 60%;
+        width: 320px;
+        height: 100px;
+        top: 110px;
+        left: 150px;
+    }
+    .cloudExplain > p {
+        top: -12px;
+        left: -40px;
+        position: absolute;
+        font-size: .8em;
+        height: 100px;
+        width: 280px;
+    }
+    .cloudRight{
+
+    }
+    #imageActive.activeR {
+        height: 160px;
+    }
+    #imageActive.activeL {
+        height: 160px;
     }
 }
