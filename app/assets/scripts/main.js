@@ -12,18 +12,12 @@ $(document).ready(function() {
         $(".cloudExplain").css("-webkit-animation","none");  //turns off opening animation of cloud
         $(".cloudExplain").css("-moz-animation","none");  //turns off opening animation of cloud
 
-        $(".rightFlick").show();               //control snapping fingers
+        $("#rightHand").addClass('flick');
         setTimeout(function() {
-            $(".rightFlick").hide();
+          $("#rightHand").removeClass('flick');
         },175);
 
-        $(".right").hide();
-        setTimeout(function() {
-            $(".right").show();
-        },175);                                 //end snapping fingers
-
-                                                //control appear/disappear of thought cloud
-        $(".cloudRight").hide();
+        $(".cloudRight").hide(); //control appear/disappear of thought cloud
         setTimeout(function() {
             $(".cloudRight").fadeIn(1000);
         },500);
@@ -130,17 +124,12 @@ $(document).ready(function() {
         $(".cloudExplain").css("-webkit-animation","none");  //turns off opening animation of cloud
         $(".cloudExplain").css("-moz-animation","none");  //turns off opening animation of cloud
 
-        $(".leftFlick").show();             //control snapping fingers
+        $("#leftHand").addClass('flick');
         setTimeout(function() {
-            $(".leftFlick").hide();
+          $("#leftHand").removeClass('flick');
         },175);
-        $(".left").hide();
-        setTimeout(function() {
-            $(".left").show();
-        },175);
-                                            //end snapping fingers
-                                            //control appear/disappear of thought cloud
-        $(".cloudRight").hide();
+                                            
+        $(".cloudRight").hide(); //control appear/disappear of thought cloud
         setTimeout(function() {
             $(".cloudRight").fadeIn(1000);
         },500);
@@ -233,8 +222,6 @@ $(document).ready(function() {
         window.lastClickedElement=lastClickedElement;
 
     });                     //end left hand
-
-
 
 });                                     //end document ready
 
